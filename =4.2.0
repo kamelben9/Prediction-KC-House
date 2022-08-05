@@ -1,0 +1,13 @@
+Collecting nbformat
+  Using cached nbformat-5.4.0-py3-none-any.whl (73 kB)
+Requirement already satisfied: fastjsonschema in /home/kamel/.local/lib/python3.10/site-packages (from nbformat) (2.15.3)
+Collecting jsonschema>=2.6
+  Using cached jsonschema-4.9.0-py3-none-any.whl (79 kB)
+Requirement already satisfied: jupyter-core in /home/kamel/miniconda3/envs/viz/lib/python3.10/site-packages (from nbformat) (4.10.0)
+Requirement already satisfied: traitlets>=5.1 in /home/kamel/miniconda3/envs/viz/lib/python3.10/site-packages (from nbformat) (5.1.1)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Using cached pyrsistent-0.18.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (115 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+Installing collected packages: pyrsistent, attrs, jsonschema, nbformat
+Successfully installed attrs-22.1.0 jsonschema-4.9.0 nbformat-5.4.0 pyrsistent-0.18.1
